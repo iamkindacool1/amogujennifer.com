@@ -3,15 +3,22 @@
 Plain HTML/CSS/JS. No build step. Every page is a file you can open and edit.
 
     index.html        home
-    experience.html   seats + education
+    experience.html   work (every job, plus MLT, V2WS, volunteering, school + skills)
     venture.html      SEYA
-    notes.html        what I'm learning
+    notes.html        what I learned at each job, plus books and podcasts
     now.html          Spotify + pods + off the clock
-    colophon.html     how this was made (the Recalc reflection)
-    styles.css        all styling (colors at the top, dark theme under [data-theme="dark"])
-    main.js           clock, dark toggle, scroll reveals, folder tilt, ticker
-    assets/           resume PDF + SEYA photos
+    colophon.html     how this was made
+    styles.css        all styling (colors at the top, night mode under [data-theme="night"])
+    main.js           day/night toggle, scroll-in, footer year
+    assets/           resume PDF, SEYA photos, og.jpg (the link preview image)
     CNAME             tells GitHub Pages which domain this is
+
+Live at https://amogujennifer.com from github.com/iamkindacool1/amogujennifer.com (GitHub Pages, main branch).
+Pushing to main redeploys in about a minute.
+
+v3 (Sep 30 2026): sky / grass / crayon / old-Mac look. The drawings (clouds, hills, crayon
+doodles, pixel icons) are inline SVG inside each page. To change a job, edit the matching
+<article class="job"> in experience.html and the card in index.html.
 
 ## Preview locally
 
